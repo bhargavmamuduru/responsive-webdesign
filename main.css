@@ -1,0 +1,227 @@
+body {
+	background-image:url(https://lh3.googleusercontent.com/Ng4D-aiFYSXgziq6ajT47zTsVK3nJUTrTC-taEtvkUjnJ0v7YZFIjzhLwmNijEbLPaUttgIlin4GWG3kE5b3nz5Q9llnq_bn9_jASyBD-LBEY9yzdyoA7-W1YODQ09V2FSUheTUO5fU4hekgeL8xSwHe0pyLiRlJJuqcpTtEKelx05IYMIQeyOg9FsMyxdaNgOs74bf-8ANphLghPM2HbjhzGrhctO0UpQTBnLvo9FjP0NkXy5CViecqUBRYGn0PXrcF_AxYbxIfFMrjgt0jnf17HKa3PZDsjcdZqSnFxFi0Tfb7Ow-Qaeu4XKdR95UZ5LX7erNtQGnTrTcSs_-oMbegocosqRa1z2yVpbb3UXT2yQ5CZYjTloYqy-pwzBo8pNU86NkdCZPycoySQv8rbhUHMc-_nzqlApTWbCn0T5_LZ5UrK2vO72JFfWn4YbS_TZIWih2YGcAS4XU3kmwW1DqnHTrKg9JWMWQk1SKjXe9sGjeTJLLV6LNJd0YYjSGowSIUMUAiGV6yQF1SlAEV8iuPVO8stmAdEGq7hldbPraHxJr8B1S4Y830RK6iYouOGE0=w1280-h720-no);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:auto;
+	font: 1em/150% Arial, sans-serif;
+	background-size: cover;
+	margin: 0;
+}
+a {
+	color:brown;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1, h4{
+	font: bold 35px/100%;
+    font-family: fantasy;
+    text-shadow:1px 1px red;
+}
+ol, ul { 
+	list-style: none; 
+	margin: 0;
+	}
+ul li { 
+	margin: 0; 
+	padding: 0;
+    font-family:Lucidatypewriter, monospace		;
+	}
+img {
+	max-width: 100%;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+#header {
+	height: 180px;
+	background: url(https://lh3.googleusercontent.com/OQ3T-FaJzK7hv-1imyntNfvcrDi6K4CCVGA5ahM31-c6uoNOhCVxmkSOT3m53CH1IW_Wy3eti_QJWrxAO8wt6Rg7mlqnyWvHzRgLvgGJvmGxP3ckhNwH41XG0AZMhUlKDm606FWbVcYWn-q9WMyxJxaBPjCblxmEe8T_DgT7xXUgcBzEXyX1MOexBuyceHFW27PawILNq25UmMctM-EKcNd4mlSXwX3we-ISZ_gRZenXmNQJI573lfelCqw-gs1wXEa7ysITzhAUw-V1S95kea_gQKm1LCZ6V0XBMJzvzeAjiV0DaMiatyoQ6pU5LweSSEYB-SIcTgQah7mzJpmAlt5vp873efs5Mt2Pa6hzVYgELblq66KkdtoXjUQbrSWGiwcIepATV2q39Ea1t0DmB50ebeX_51zk6mCVQYnniTIz6-ifuxullJ61fk3Dy_u_NAuE0czXq58r4s3SrvgfHUuOQzgr4ytxLFp7h6FEbyQhCtVd2jtO5iaaSn58S9jTCsYXd6ue5cZ8LMf-ns0hg_IfSExwk0TWrEgjDsvxZiTMnPKEUydxeKAK1hc0CIYtj_s=w1068-h667-no);
+	background-size: cover;
+	background-position: center;
+}
+#header h1{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	width: 50%;
+	font-size: 60px;
+}
+#header h4{
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+	color: #fff;
+	font-size: 25px;
+}
+#header nav {
+	float: left;
+	margin-top: 40px;
+	width: 100%;
+	background: #ddd;
+	height: 40px;
+	padding-top: 10px;	
+	}
+	
+#header nav li {
+	display: inline;
+	margin-left: 15px;
+	}
+#content {
+	width: 99%;
+	float: left;
+}
+section {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #ddd;
+	padding-top: 30px;
+	margin: 20px 0px;
+}
+.myname{
+    font-family:Palatino, serif;
+    text-shadow: 0px 1px green;
+}
+.grid1{
+	width: 10%;
+	float: left;
+}
+.grid1 h1{
+	text-align: center;
+	font-size: 80px;
+}
+.grid2{
+	width: 36%;
+	float: left;
+}
+.grid3{
+	width: 54%;
+	float: left;
+}
+#footer {
+	clear: both;
+	background: #fff;
+	padding: 20px;
+}
+.mobilemenu{
+	display: none;
+}
+@media screen and (max-width: 980px) {
+	#content {
+    padding-right: 0px !important;
+	}
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 100%;
+	}
+	#header h1 {
+    font-size: 40px;
+    line-height: 45px;
+}
+	.grid1{
+	width: 20%;
+	float: left;
+	}
+	.grid1 h1{
+		text-align: center;
+	}
+	.grid2{
+		width: 80%;
+		float: left;
+	}
+	.grid3{
+		width: 100%;
+		float: left;
+	}
+
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+	.container {
+    width: 100%;
+	}
+	#header{
+		height: auto;
+		border: 0px;
+		height: 200px;
+	}
+	#header nav .menu {
+		display: none;
+	}
+	.mobilemenu{
+	display: block;
+	}
+	.mobilemenu select{
+		width: 95%;
+		height: 30px;
+		margin: 0px 10px;
+	}
+	#content {
+		width: 100%;
+	float: left;
+	}
+	#content {
+    padding-right: 0px !important;
+	}
+	.grid1{
+		width: 10%;
+		float: left;
+	}
+	.grid1 h1 {
+		text-align: center;
+		line-height: 30px;
+		margin-top: 15px;
+		font-size: 30px;
+	}
+	
+	.grid2{
+		width: 90%;
+		float: left;
+	}
+	.grid3{
+		width: 100%;
+		float: left;
+	}
+	.hideInPhone{
+		display: none;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		display: none;
+	}
+
+}
+
+#content {
+	background: #f8f8f8;
+	padding-right: 12px;
+}
+#header, #content, #sidebar {
+	margin-bottom: 5px;
+}
+#pagewrap, #header, #content, #sidebar {
+	border:  1px solid #ccc;
+}
+#footer{text-align: right;
+font-family:fantasy; 
+font-size: 20px;
+}
